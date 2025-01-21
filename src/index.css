@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+	width: 13px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #a4a4a4ca;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #a4a4a4f4;
+}
+
+body {
+	font-family: "Poppins", serif;
+	max-width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background: url("./library.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.gradient-text {
+	background: linear-gradient(90deg, rgb(116, 116, 253), rgb(255, 150, 216));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	color: transparent;
+	font-family: "Pacifico", serif;
+	font-weight: 300;
+}
