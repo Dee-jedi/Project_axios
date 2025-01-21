@@ -77,8 +77,10 @@ const BookContainer = () => {
 						))}
 					</div>
 				) : (
-					<div className="text-center mt-5">
-						<h2 className="text-white md:text-3xl text-2xl">Type to Search</h2>
+					<div className="text-center md:mt-5">
+						<h2 className="text-white md:text-3xl text-[22px]">
+							Type to Search
+						</h2>
 					</div>
 				)}
 			</div>
